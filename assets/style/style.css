@@ -28,6 +28,7 @@ header {
     flex-direction: column;
     padding: 5vh;
     gap: 1em;
+    margin: 0 5em;
 }
 input {
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -51,16 +52,9 @@ button {
 button:hover {
     opacity: 0.8;
 }
-/* segunda sparte do código */
-
-
-
-
 
 
 /* Medias para Celular */
-
-
 @media (width < 40rem) {
     html{
         font-size: 70%;
